@@ -10,4 +10,4 @@ const resolvers={
     foodImg:(parent)=>parent.food_img,
   }
 }
-export default resolvers
+export default resolvers;

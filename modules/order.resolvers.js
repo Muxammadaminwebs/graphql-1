@@ -10,11 +10,13 @@ const resolvers={
     userId:parent=>parent.user_id,
     food:async parent=>{
       let foods=await AllFoods();
-      return foods.find(food=>food.food_id==parent.food_id)
+      return foods.find(food => food.food_id == parent.food_id)
+      
     },
     user:async parent=>{
       let users=await AllUsers();
-      return users.find(user=>user.user_id==parent.user_id)
+      return users.find(user => user.user_id == parent.user_id)
+      
     }
   }
 }
