@@ -1,0 +1,10 @@
+type Food {
+  foodId: ID
+  foodName: String
+  price: Int
+  foodImg: String
+}
+
+type Query {
+  foods: [Food]
+}

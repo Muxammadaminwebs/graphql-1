@@ -1,0 +1,10 @@
+type User {
+  userId: ID
+  username: String
+  phone: String
+  orders: [Order!]
+}
+type Query {
+  users: [User!]
+  user(userId: ID): User
+}

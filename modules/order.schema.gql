@@ -1,0 +1,11 @@
+type Order {
+  food: Food
+  user: User
+  orderId: ID
+  userId: ID
+  count: Int
+}
+
+type Query {
+  orders: [Order]
+}
