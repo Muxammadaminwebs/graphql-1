@@ -3,8 +3,8 @@ type Food {
   foodName: String
   price: Int
   foodImg: String
-}
+};
 
 type Query {
   foods: [Food]
-}
+};
